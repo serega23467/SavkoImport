@@ -1,0 +1,28 @@
+﻿<Window x:Class="Import.WindowAddRequest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Import"
+        mc:Ignorable="d"
+        Title="Добавить заявку" Height="365" Width="303" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="textBoxId" HorizontalAlignment="Left" Margin="113,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="18"/>
+        <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="113,217,0,0" VerticalAlignment="Top" Width="141" Height="22"/>
+        <TextBox x:Name="textBoxType" HorizontalAlignment="Left" Margin="113,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="18"/>
+        <TextBox x:Name="textBoxModel" HorizontalAlignment="Left" Margin="113,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="18"/>
+        <TextBox x:Name="textBoxDesc" HorizontalAlignment="Left" Margin="113,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="id"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,51,0,0" TextWrapping="Wrap" Text="Дата (дд-мм-гггг)" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Вид" HorizontalAlignment="Left" Margin="10,79,0,0" TextWrapping="Wrap" Text="Вид" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Модель" HorizontalAlignment="Left" Margin="10,111,0,0" TextWrapping="Wrap" Text="Модель" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Описание" HorizontalAlignment="Left" Margin="10,143,0,0" TextWrapping="Wrap" Text="Описание" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,186,0,0" TextWrapping="Wrap" Text="Клиент" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,217,0,0" TextWrapping="Wrap" Text="Статус" VerticalAlignment="Top"/>
+
+        <Button x:Name="buttonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" FontSize="16" Click="buttonAdd_Click"/>
+        <ComboBox x:Name="comboBoxClient" HorizontalAlignment="Left" Margin="113,186,0,0" VerticalAlignment="Top" Width="141" Height="22"/>
+        <DatePicker x:Name="datePicker" HorizontalAlignment="Left" Margin="113,47,0,0" VerticalAlignment="Top" Width="141"/>
+
+    </Grid>
+</Window>

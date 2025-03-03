@@ -1,0 +1,17 @@
+﻿<Window x:Class="Import.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Import"
+        mc:Ignorable="d"
+        Title="Логин" Height="450" Width="331" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="47,47,0,0" TextWrapping="Wrap" Text="Логин" FontSize="24" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Margin="39,84,0,0" TextWrapping="Wrap" Text="login1" VerticalAlignment="Top" FontSize="24" Width="268"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,146,0,0" TextWrapping="Wrap" Text="Пароль" FontSize="24" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Password="pass1" Margin="39,183,0,0" VerticalAlignment="Top" FontSize="24" Width="268"/>
+        <Button x:Name="buttonLogin" Content="Вход" HorizontalAlignment="Left" Margin="104,283,0,0" VerticalAlignment="Top" FontSize="24" Width="132" Click="buttonLogin_Click"/>
+
+    </Grid>
+</Window>

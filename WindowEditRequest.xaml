@@ -1,0 +1,26 @@
+﻿<Window x:Class="Import.WindowEditRequest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Import"
+        mc:Ignorable="d"
+        Title="Измененить заявку" Height="363" Width="292" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ComboBox x:Name="comboBoxStatus" HorizontalAlignment="Left" Margin="113,127,0,0" VerticalAlignment="Top" Width="141" Height="22"/>
+        <TextBox x:Name="textBoxDesc" HorizontalAlignment="Left" Margin="113,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="42"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="id"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" Text="Описание" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,96,0,0" TextWrapping="Wrap" Text="Мастер" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,127,0,0" TextWrapping="Wrap" Text="Статус" VerticalAlignment="Top"/>
+
+        <Button x:Name="buttonEdit" Content="Изменить" HorizontalAlignment="Left" Margin="76,273,0,0" VerticalAlignment="Top" FontSize="16" Click="buttonEdit_Click"/>
+        <ComboBox x:Name="comboBoxMaster" HorizontalAlignment="Left" Margin="113,96,0,0" VerticalAlignment="Top" Width="141" Height="22"/>
+        <TextBlock x:Name="textBlockId" HorizontalAlignment="Left" Margin="114,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Margin="113,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="42"/>
+        <TextBlock x:Name="textBlockMessage" HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Комментарий" VerticalAlignment="Center"/>
+        <TextBox x:Name="textBoxParts" HorizontalAlignment="Left" Margin="113,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="42"/>
+        <TextBlock x:Name="textBlockParts" HorizontalAlignment="Left" Margin="10,220,0,0" TextWrapping="Wrap" Text="Детали" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
