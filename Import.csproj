@@ -154,6 +154,7 @@
     <None Include="DB\Model.edmx.diagram">
       <DependentUpon>Model.edmx</DependentUpon>
     </None>
+    <None Include="ImportAbr.bacpac" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
